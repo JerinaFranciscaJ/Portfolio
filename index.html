@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerina Francisca Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Jerina Francisca</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" onclick="showSection('home')">Home</a></li>
+                <li><a href="#about" onclick="showSection('about')">About Me</a></li>
+                <li><a href="#projects" onclick="showSection('projects')">Projects</a></li>
+                <li><a href="#skills" onclick="showSection('skills')">Skills</a></li>
+                <li><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section active fade-in home-bg">
+            <div class="content">
+                <p class="text-line">Hello, It's me</p>
+                <p class="text-line"><span class="highlight">Jerina Francisca J</span></p>
+                <p class="text-line">I am an engineering student passionate about <span class="highlight">web development</span></p>
+                <p class="text-line">Experienced in <span class="highlight">programming</span></p>
+            </div>
+        </section>
+        
+        <!-- About Section -->
+        <section id="about" class="section fade-in">
+            <div class="content">
+                <p class="text-line">I'm a smart-working engineering student specializing in Information Technology.</p>
+                <p class="text-line">Currently seeking roles to utilize my experience and skills in the tech industry.</p>
+                <div class="box">
+                    <p class="text-line internship">Internship</p>
+                    <p class="text-line">Web Development at AICL Training Institute</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Projects Section -->
+        <section id="projects" class="section fade-in">
+            <div class="content">
+                <div class="box">
+                    <p class="project-title highlight">Dictionary App</p>
+                    <p class="project-description">A responsive dictionary app using HTML, CSS, and JavaScript with real-time word definitions, phonetics, and examples.</p>
+                </div>
+                <div class="box">
+                    <p class="project-title highlight">Minesweeper Game</p>
+                    <p class="project-description">A JavaScript game implementing Minesweeper logic with bomb placement, flagging, and game-over mechanics.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Skills Section -->
+        <section id="skills" class="section fade-in">
+            <div class="content">
+                <h2 class="highlight">Technical Skills</h2>
+                <p class="text-line"><i class="icon">&#x1F4BB;</i> HTML, CSS, JavaScript (Web Development)</p>
+                <p class="text-line"><i class="icon">&#9881;</i> Languages: <span class="underline">Java, C</span></p>
+                
+                <h2 class="highlight" style="margin-top: 30px;">Professional Skills</h2>
+                <div class="circle-container">
+                    <div class="skill-circle" data-skill="90">Creativity</div>
+                    <div class="skill-circle" data-skill="80">Communication</div>
+                    <div class="skill-circle" data-skill="90">Teamwork</div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="section fade-in">
+            <div class="content box">
+                <p class="text-line"><i class="icon">&#128231;</i> Email: <a href="mailto:jerinafrancisca@gmail.com">jerinafrancisca@gmail.com</a></p>
+                <p class="text-line"><i class="icon">&#128222;</i> Phone: +91-9345425985</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
